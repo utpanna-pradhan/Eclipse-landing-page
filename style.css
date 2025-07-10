@@ -1,0 +1,37 @@
+:root{
+    --colorgray:rgb(209 213 219);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12, 17, 37);
+    
+}
+.sofiafont{
+    font-family: "Sofia", sans-serif;
+}
+
+nav li a{
+    color: var(--colorgray);
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.top_content h1  , .top_content h2 ,.top_content p{
+        background: linear-gradient(179.1deg, #FFFFFF 0.77%, rgba(255, 255, 255, 0) 182.09%);
+        background-clip: text;
+        -webkit-background-clip: text;
+         color: transparent;
+        -webkit-text-fill-color: transparent;
+          display: inline-block; 
+}
+
+
+.second_content_img img{
+    width: 90%;
+    border-radius: 18px;
+}
